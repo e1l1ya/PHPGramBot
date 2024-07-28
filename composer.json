@@ -1,0 +1,21 @@
+{
+    "autoload": {
+        "files": [
+            "./app/helpers.php"
+        ],
+        "psr-4": {
+            "App\\": "app"
+        }
+    },
+    "authors": [
+        {
+            "name": "eiliya",
+            "email": "e1l1yasec@gmail.com"
+        }
+    ],
+    "require": {
+        "ext-curl": "*",
+        "ext-json": "*",
+        "illuminate/support": "^7.0.0"
+    }
+}
